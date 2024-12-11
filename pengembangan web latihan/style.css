@@ -1,0 +1,314 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+ 
+header {
+    padding: 10px 20px; /* Atur padding lebih kecil */
+    margin: 0 auto; /* Pastikan tidak ada margin yang membuatnya terlalu besar */
+    max-width: 1200px; /* Batasi lebar header agar tidak terlalu melebar */
+    text-align: center; /* Sesuaikan tata letak */
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 650;
+    float: left;
+    font-family: Edwardian Script ITC;
+    color:black;
+}
+
+.logo img {
+    width: 70px;  
+    height: auto;
+    margin-top: 20px;
+}
+
+
+.menu {
+    float: right;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+.shop-btn-container {
+    text-align: center;
+    margin: 30px 15px; 
+    padding: 20px 15; 
+}
+
+.shop-btn {
+    background: #ff9f0e;
+    border-radius: 20px;
+    padding: 12px 25px; /* Tambahkan padding lebih besar untuk vertikal dan horizontal */
+    font-size: 16px; /* Perbesar ukuran font */
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 1.2; /* Pastikan teks tidak terlalu mepet */
+    text-align: center;
+    }
+    
+
+.shop-btn:hover {
+    background: #ffaa33;
+    text-decoration: none;
+    }
+    
+
+
+
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #ffffff;
+    z-index: 1;
+    border-bottom: 1px solid black;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration-line: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: comic sans ms;
+    color: black;
+}
+
+h2 {
+    font-family:EFCO BROKESHIRE;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color:black;
+    width: 100%;
+    line-height: 50px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    width: 100%;
+}
+
+.kolom p {
+    text-align: justify;
+}
+
+
+a.tbl-pink {
+    background: #D91656;
+    border-radius: 20px;
+    margin: 20px 0px;
+    margin-top: 30px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-block;
+}
+
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    color: #000;
+}
+
+a.tbl-pink:hover {
+    background: #001F3F;
+    text-decoration: none;
+}
+
+a.tbl-biru {
+    background:#D91656 ;
+    border-radius: 30px;
+    margin: 20px 0px;
+    margin-top: 10px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-block;
+}
+
+a.tbl-biru:hover {
+    background:#006BFF;
+    text-decoration: none;
+}
+
+#contact {
+    background: #dedede;
+    padding: 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    display: flex; 
+    position: relative;
+    flex-wrap: wrap;
+    margin:auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: comic sans ms;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: black;
+    line-height: 50px;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+    background: #ffffff;
+}
+
+/* Gaya default untuk perangkat desktop */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Gaya untuk tablet */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    .wrapper {
+        width: 100%;
+    }
+    .menu {
+        font-size: 20px;
+    }
+    .kolom {
+        margin-top: 30px;
+    }
+}
+
+/* Gaya untuk ponsel */
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+    .logo img {
+        width: 50px;
+    }
+    .menu {
+        font-size: 18px;
+    }
+    .kolom {
+        margin-top: 20px;
+    }
+}
+
+nav .menu {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 8px 10px;
+    }
+    .shop-btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
+
